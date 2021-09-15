@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo OS PALPITES DO JOGO DE HOJE DA QUINA SÃO: 
+sleep 2
+shuf -i 01-80 -n 5
+echo Resultado gerado em
+date
+echo PARABÉNS ! ! !
+sleep 1
+echo DIZ PRA GENTE SE VC GANHOU COM NOSSOS PALPITES! 
+sleep 15
+clear
+

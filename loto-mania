@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo OS PALPITES DO JOGO DE HOJE DA LOTO-MANIA SÃO: 
+sleep 2
+shuf -i 00-99 -n 50
+date
+echo PARABÉNS ! ! !
+sleep 1
+echo DIZ PRA GENTE SE VC GANHOU COM NOSSOS PALPITES! 
+sleep 15 
+clear
+
