@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo OS PALPITES DO JOGO DE HOJE DA LOTO-MANIA SÃO: 
+echo OS PALPITES DO JOGO DE $(date | cut -c1-15) DA LOTO-MANIA SÃO: 
 sleep 2
 shuf -i 00-99 -n 50
 date
