@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo OS PALPITES DO JOGO DE HOJE DA QUINA SÃO: 
+echo OS PALPITES DO JOGO DE $(date | cut -c1-15) DA QUINA SÃO: 
 sleep 2
 shuf -i 01-80 -n 5
 echo Resultado gerado em
