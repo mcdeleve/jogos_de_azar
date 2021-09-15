@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo OS PALPITES DO JOGO DE HOJE DA MEGA-SENA SÃO: 
+echo OS PALPITES DO JOGO DE $(date | cut -c1-15) DA MEGA-SENA SÃO: 
 sleep 2
 shuf -i 1-60 -n 6
 date
