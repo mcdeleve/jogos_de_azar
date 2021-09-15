@@ -4,7 +4,7 @@ echo OS PALPITES DO JOGO DE HOJE DO JOGO DO BICHO DAS $(date | cut -f5 -d ' ') Ã
 sleep 2
 shuf -i 0001-9999 -n 5; shuf -i 001-999 -n 1
 echo Resultado gerado em 
-date
+date | cut -c1-15
 echo PARABÃ‰NS ! ! !
 sleep 1
 echo DIZ PRA GENTE SE VC GANHOU COM NOSSOS PALPITES! 
