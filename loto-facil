@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo OS PALPITES DO JOGO DE HOJE DA LOTO-FÁCIL SÃO: 
+echo OS PALPITES DO JOGO DE $(date | cut -c1-15) DA LOTO-FÁCIL SÃO: 
 sleep 2
 shuf -i 01-25 -n 15
-date
+date 
 echo PARABÉNS ! ! !
 sleep 1
 echo DIZ PRA GENTE SE VC GANHOU COM NOSSOS PALPITES! 
